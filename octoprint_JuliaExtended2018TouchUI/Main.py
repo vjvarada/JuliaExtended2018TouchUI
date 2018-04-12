@@ -99,6 +99,10 @@ filaments = {"ABS": 220,
              "WoodFill": 200,
              "CopperFill": 180
              }
+caliberationPosition = { 'X1': 236, 'Y1': 52,
+                         'X2': 50, 'Y2': 52,
+                         'X3': 145, 'Y3': 215
+                         }
 
 try:
     _fromUtf8 = QtCore.QString.fromUtf8
@@ -223,6 +227,8 @@ class MainUiClass(QtGui.QMainWindow, mainGUI.Ui_MainWindow):
 
 
 
+
+
     def __init__(self):
         '''
         This method gets called when an object of type MainUIClass is defined
@@ -301,12 +307,20 @@ class MainUiClass(QtGui.QMainWindow, mainGUI.Ui_MainWindow):
         self.step2NextButton.clicked.connect(self.step3)
         self.step3NextButton.clicked.connect(self.step4)
         self.step4NextButton.clicked.connect(self.step5)
-        self.step5NextButton.clicked.connect(self.doneStep)
+        self.step5NextButton.clicked.connect(self.step6)
+        self.step6NextButton.clicked.connect(self.step7)
+        self.step7NextButton.clicked.connect(self.step8)
+        self.moveZMCaliberateButton.pressed.connect(lambda: octopiclient.jog(z=-0.05))
+        self.moveZPCaliberateButton.pressed.connect(lambda: octopiclient.jog(z=0.05))
+        self.step8NextButton.clicked.connect(self.doneStep)
         self.step1CancelButton.pressed.connect(self.cancelStep)
         self.step2CancelButton.pressed.connect(self.cancelStep)
         self.step3CancelButton.pressed.connect(self.cancelStep)
         self.step4CancelButton.pressed.connect(self.cancelStep)
         self.step5CancelButton.pressed.connect(self.cancelStep)
+        self.step6CancelButton.pressed.connect(self.cancelStep)
+        self.step7CancelButton.pressed.connect(self.cancelStep)
+        self.step8CancelButton.pressed.connect(self.cancelStep)
 
         # PrintLocationScreen
         self.printLocationScreenBackButton.pressed.connect(lambda: self.stackedWidget.setCurrentWidget(self.MenuPage))
@@ -1353,7 +1367,10 @@ class MainUiClass(QtGui.QMainWindow, mainGUI.Ui_MainWindow):
         :param offset: the value off the offset to set. is a str is coming from M114, and is float if coming from the nozzleOffsetPage
         :param setOffset: Boolean, is true if the function call is from the nozzleOFfsetPage
         :return:
+
+        #TODO can make this simpler, asset the offset value to float to begin with instead of doing confitionals
         '''
+
         if self.setHomeOffsetBool:
             octopiclient.gcode(command='M206 Z{}'.format(-float(offset)))
             self.setHomeOffsetBool = False
@@ -1378,7 +1395,7 @@ class MainUiClass(QtGui.QMainWindow, mainGUI.Ui_MainWindow):
         self.stackedWidget.setCurrentWidget(self.step1Page)
         octopiclient.gcode(command='M206 Z0') # Sets Z home offset to 0
         octopiclient.home(['x', 'y', 'z'])
-        octopiclient.jog(x=90, y=90, z=15, absolute=True, speed=1500)
+        octopiclient.jog(x=125, y=125, z=15, absolute=True, speed=1500)
 
     def step2(self):
         '''
@@ -1386,8 +1403,6 @@ class MainUiClass(QtGui.QMainWindow, mainGUI.Ui_MainWindow):
         :return:
         '''
         self.stackedWidget.setCurrentWidget(self.step2Page)
-        octopiclient.jog(x=87, y=188, absolute=True)
-        octopiclient.jog(z=0, absolute=True)
 
     def step3(self):
         '''
@@ -1395,8 +1410,7 @@ class MainUiClass(QtGui.QMainWindow, mainGUI.Ui_MainWindow):
         Then asks user to tighten right leveling screw
         '''
         self.stackedWidget.setCurrentWidget(self.step3Page)
-        octopiclient.jog(z=15, absolute=True)
-        octopiclient.jog(x=159, y=14, absolute=True)
+        octopiclient.jog(x=caliberationPosition['X1'], y=caliberationPosition['Y1'], absolute=True)
         octopiclient.jog(z=0, absolute=True)
 
 
@@ -1408,8 +1422,8 @@ class MainUiClass(QtGui.QMainWindow, mainGUI.Ui_MainWindow):
         '''
         # sent twice for some reason
         self.stackedWidget.setCurrentWidget(self.step4Page)
-        octopiclient.jog(z=15, absolute=True)
-        octopiclient.jog(x=14, y=14, absolute=True)
+        octopiclient.jog(z=10, absolute=True)
+        octopiclient.jog(x=caliberationPosition['X2'], y=caliberationPosition['Y2'], absolute=True)
         octopiclient.jog(z=0, absolute=True)
 
 
@@ -1421,10 +1435,37 @@ class MainUiClass(QtGui.QMainWindow, mainGUI.Ui_MainWindow):
         '''
         # sent twice for some reason
         self.stackedWidget.setCurrentWidget(self.step5Page)
-        octopiclient.jog(z=15, absolute=True)
-        octopiclient.jog(x=90, y=90, absolute=True)
+        octopiclient.jog(z=10, absolute=True)
+        octopiclient.jog(x=caliberationPosition['X3'], y=caliberationPosition['Y3'], absolute=True)
+        octopiclient.jog(z=0, absolute=True)
 
 
+
+    def step6(self):
+        '''
+        sets z = 5, goes to front position for nozzle height adjustment, then sets z=2
+        :return:
+        '''
+        self.stackedWidget.setCurrentWidget(self.step6Page)
+        octopiclient.jog(z=10, absolute=True)
+        octopiclient.jog(x=142, y=0, absolute=True)
+        octopiclient.jog(z=2, absolute=True)
+
+
+    def step7(self):
+        '''
+        Shows the animaion to show how leveling is done
+        :return:
+        '''
+        self.stackedWidget.setCurrentWidget(self.step7Page)
+
+    def step8(self):
+        '''
+        actually jogs the nozzle up depending on user input by a factor of 0.05
+        :return:
+        '''
+        self.stackedWidget.setCurrentWidget(self.step8Page)
+        # Jog commads are set in setActions() under caliberation
 
     def doneStep(self):
         '''
@@ -1432,9 +1473,8 @@ class MainUiClass(QtGui.QMainWindow, mainGUI.Ui_MainWindow):
         :return:
         '''
         self.stackedWidget.setCurrentWidget(self.caliberatePage)
-        octopiclient.gcode(command='M501') # restore eeprom settings to get Z home offset back
-        octopiclient.home(['z'])
-        octopiclient.home(['x', 'y'])
+        self.setHomeOffsetBool = True
+        octopiclient.gcode(command='M114')
         # set current Z value as -home offset
 
     def cancelStep(self):

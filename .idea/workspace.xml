@@ -2,7 +2,146 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f3bfca3-6a62-46bf-a4a3-5a39cfeecc16" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/.idea/octoprint_Julia3GTouchUI.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/Keyboard.ui" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/Main.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/Test2.ui" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/hurry/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/hurry/filesize/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/hurry/filesize/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/hurry/filesize/filesize.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/hurry/filesize/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/keyBoard.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/keyBoardFunc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/mainGUI.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/octoprintAPI.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/0441ea5619b979bde781aa040943c208.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/0Bars.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/1Bars.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/2Bars.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/3Bars.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/3d-printer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/4Bars.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/FeedRate.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/FeedRate_Selected.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/File.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/Motion.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/Motion_Selected.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/Nozzle Offset Icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/Nozzle Offset.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/Nozzle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/NozzleActive.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/NozzleSelect.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/NozzleSelect_0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/NozzleSelect_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/PrintBase.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/Spool.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/Spool_Selected.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/WIFI-Icon.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/activeNozzle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/add.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/arrows-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/arrows-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/arrows-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/arrows-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/arrows-5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/arrows-6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/arrows-7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/arrows-8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/arrows-9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/arrows/arrows-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/arrows/arrows-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/arrows/arrows-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/arrows/arrows-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/arrows/arrows-5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/arrows/arrows-6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/arrows/arrows-7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/arrows/arrows-8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/arrows/arrows-9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/arrows/arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/arrows/list.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/arrows/pause.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/arrows/stop-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/arrows/stop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/back-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/back.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/backspace-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/bed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/blank-check-box.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/cancel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/caps-lock-button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/cart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/changeFilament.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/changeFilament2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/check-box.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/check-mark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/chevron-pointing-to-the-left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/computer-fan-square-tool.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/delete.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/download.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/earth-globe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/error.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/exclamation-mark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/fan-black-silhouette-off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/fan-black-silhouette.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/filamentSensorOff.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/filamentSensorOn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/folder.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/fracktal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/heightCaliberation.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/home-icon-silhouette.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/house.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/information.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/list.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/load.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/loader1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/lockCenter.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/lockLeft.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/lockRight.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/magic-wand.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/menu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/motor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/network.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/next-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/next.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/pause-button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/pause.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/pie-chart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/play-button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/play.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/printer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/printer2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/reload.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/remove.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/right-chevron.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/settings-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/settings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/snowflake.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/splash.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/stop-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/stop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/success.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/thermometer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/thermometer_Selected.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/thumbnail.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/unload.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/unlockAll.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/unlockLeft.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/update-arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/usb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/verification-mark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/video-player-stop-button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/wifi-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/wifi-signal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/octoprint_Julia2018TouchUI/templates/img/wifi.png" afterPath="" />
     </list>
     <ignored path="Julia3GTouchUI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,7 +161,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="setup.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="594">
@@ -32,43 +171,198 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/octoprint_Julia2018TouchUI/__init__.py">
+        <entry file="file://$PROJECT_DIR$/octoprint_JuliaExtended2018TouchUI/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1738">
-              <caret line="81" column="56" selection-start-line="81" selection-start-column="32" selection-end-line="81" selection-end-column="56" />
+            <state relative-caret-position="1518">
+              <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/octoprint_Julia2018TouchUI/Main.py">
+      <file leaf-file-name="Main.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/octoprint_JuliaExtended2018TouchUI/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1388" column="52" selection-start-line="1388" selection-start-column="52" selection-end-line="1388" selection-end-column="52" />
+            <state relative-caret-position="333">
+              <caret line="1452" column="0" selection-start-line="1452" selection-start-column="0" selection-end-line="1452" selection-end-column="0" />
               <folding>
-                <element signature="e#305#336#0" expanded="true" />
+                <element signature="e#6272#6374#0" expanded="false" />
+                <element signature="e#6680#7522#0" expanded="false" />
+                <element signature="e#6680#6773#1" expanded="false" />
+                <element signature="e#7555#7878#1" expanded="false" />
+                <element signature="e#8101#8165#1" expanded="false" />
+                <element signature="e#9142#9158#0" expanded="false" />
+                <element signature="e#18042#19340#0" expanded="false" />
+                <element signature="e#18300#19256#0" expanded="false" />
+                <element signature="e#18349#19256#0" expanded="false" />
+                <element signature="e#18422#18796#0" expanded="false" />
+                <element signature="e#18839#19256#0" expanded="false" />
+                <element signature="e#19396#21554#0" expanded="false" />
+                <element signature="e#19396#19480#1" expanded="false" />
+                <element signature="e#19996#20051#0" expanded="false" />
+                <element signature="e#20200#21409#0" expanded="false" />
+                <element signature="e#21499#21554#0" expanded="false" />
+                <element signature="e#21610#23717#0" expanded="false" />
+                <element signature="e#21610#21694#1" expanded="false" />
+                <element signature="e#22210#22265#0" expanded="false" />
+                <element signature="e#22414#23623#0" expanded="false" />
+                <element signature="e#23769#23965#0" expanded="false" />
+                <element signature="e#24019#24488#0" expanded="false" />
+                <element signature="e#24173#24284#0" expanded="false" />
+                <element signature="e#24329#24487#0" expanded="false" />
+                <element signature="e#24545#24667#0" expanded="false" />
+                <element signature="e#24711#24875#0" expanded="false" />
+                <element signature="e#24915#29871#0" expanded="false" />
+                <element signature="e#25020#25160#0" expanded="false" />
+                <element signature="e#25069#25160#0" expanded="false" />
+                <element signature="e#25201#27562#0" expanded="false" />
+                <element signature="e#25858#25913#0" expanded="false" />
+                <element signature="e#26099#27423#0" expanded="false" />
+                <element signature="e#27590#29871#0" expanded="false" />
+                <element signature="e#28201#28256#0" expanded="false" />
+                <element signature="e#28418#29742#0" expanded="false" />
+                <element signature="e#30017#32957#0" expanded="false" />
+                <element signature="e#30017#30093#1" expanded="false" />
+                <element signature="e#30961#32772#0" expanded="false" />
+                <element signature="e#33001#33981#0" expanded="false" />
+                <element signature="e#34028#34262#0" expanded="false" />
+                <element signature="e#34054#34177#0" expanded="false" />
+                <element signature="e#34299#34852#0" expanded="false" />
+                <element signature="e#34538#34641#0" expanded="false" />
+                <element signature="e#34894#35628#0" expanded="false" />
+                <element signature="e#34911#35577#0" expanded="false" />
+                <element signature="e#35666#35827#0" expanded="false" />
+                <element signature="e#35862#36654#0" expanded="false" />
+                <element signature="e#35862#36012#1" expanded="false" />
+                <element signature="e#36021#36036#0" expanded="false" />
+                <element signature="e#36787#37406#0" expanded="false" />
+                <element signature="e#37444#38060#0" expanded="false" />
+                <element signature="e#38100#38267#0" expanded="false" />
+                <element signature="e#38313#38404#0" expanded="false" />
+                <element signature="e#38542#40830#0" expanded="false" />
+                <element signature="e#38542#38649#1" expanded="false" />
+                <element signature="e#39232#39287#0" expanded="false" />
+                <element signature="e#39461#40713#0" expanded="false" />
+                <element signature="e#40871#41280#0" expanded="false" />
+                <element signature="e#40871#40961#1" expanded="false" />
+                <element signature="e#41026#41102#0" expanded="false" />
+                <element signature="e#41319#42018#0" expanded="false" />
+                <element signature="e#41319#41479#1" expanded="false" />
+                <element signature="e#41646#41714#0" expanded="false" />
+                <element signature="e#41818#41860#0" expanded="false" />
+                <element signature="e#42055#42745#0" expanded="false" />
+                <element signature="e#42055#42278#1" expanded="false" />
+                <element signature="e#42579#42599#0" expanded="false" />
+                <element signature="e#42790#45836#0" expanded="false" />
+                <element signature="e#42790#43014#1" expanded="false" />
+                <element signature="e#43040#45257#0" expanded="false" />
+                <element signature="e#43690#43915#0" expanded="false" />
+                <element signature="e#44034#44172#0" expanded="false" />
+                <element signature="e#44293#44419#0" expanded="false" />
+                <element signature="e#44522#44575#0" expanded="false" />
+                <element signature="e#44753#44859#1" expanded="false" />
+                <element signature="e#45004#45129#0" expanded="false" />
+                <element signature="e#45288#45836#0" expanded="false" />
+                <element signature="e#45333#45363#0" expanded="false" />
+                <element signature="e#45878#46772#0" expanded="false" />
+                <element signature="e#45878#46037#1" expanded="false" />
+                <element signature="e#46063#46680#0" expanded="false" />
+                <element signature="e#46709#46772#0" expanded="false" />
+                <element signature="e#46825#47326#0" expanded="false" />
+                <element signature="e#46825#47067#1" expanded="false" />
+                <element signature="e#47361#47605#0" expanded="false" />
+                <element signature="e#47361#47430#1" expanded="false" />
+                <element signature="e#47641#47966#0" expanded="false" />
+                <element signature="e#47641#47736#1" expanded="false" />
+                <element signature="e#48114#54139#0" expanded="false" />
+                <element signature="e#48114#48515#1" expanded="false" />
+                <element signature="e#48574#49462#0" expanded="false" />
+                <element signature="e#48662#49460#0" expanded="false" />
+                <element signature="e#49546#50565#0" expanded="false" />
+                <element signature="e#49657#50563#0" expanded="false" />
+                <element signature="e#50938#51804#0" expanded="false" />
+                <element signature="e#51022#51802#0" expanded="false" />
+                <element signature="e#51884#52875#0" expanded="false" />
+                <element signature="e#51989#52873#0" expanded="false" />
+                <element signature="e#53317#54139#0" expanded="false" />
+                <element signature="e#53608#54061#0" expanded="false" />
+                <element signature="e#53894#54061#0" expanded="false" />
+                <element signature="e#54189#56658#0" expanded="false" />
+                <element signature="e#54189#54500#1" expanded="false" />
+                <element signature="e#54538#54860#0" expanded="false" />
+                <element signature="e#54888#56658#0" expanded="false" />
+                <element signature="e#55229#55424#0" expanded="false" />
+                <element signature="e#55561#55759#0" expanded="false" />
+                <element signature="e#55976#56148#1" expanded="false" />
+                <element signature="e#56219#56658#0" expanded="false" />
+                <element signature="e#56399#56528#0" expanded="false" />
+                <element signature="e#56704#59939#0" expanded="false" />
+                <element signature="e#56704#56980#1" expanded="false" />
+                <element signature="e#57122#57516#0" expanded="false" />
+                <element signature="e#57171#57514#0" expanded="false" />
+                <element signature="e#57570#57958#0" expanded="false" />
+                <element signature="e#57619#57956#0" expanded="false" />
+                <element signature="e#58013#58402#0" expanded="false" />
+                <element signature="e#58062#58400#0" expanded="false" />
+                <element signature="e#58463#58852#0" expanded="false" />
+                <element signature="e#58512#58850#0" expanded="false" />
+                <element signature="e#58862#58933#1" expanded="false" />
+                <element signature="e#58979#59271#0" expanded="false" />
+                <element signature="e#59319#59614#0" expanded="false" />
+                <element signature="e#59643#59939#0" expanded="false" />
+                <element signature="e#60064#60210#0" expanded="false" />
+                <element signature="e#60253#61005#0" expanded="false" />
+                <element signature="e#60253#60440#1" expanded="false" />
+                <element signature="e#60482#60631#0" expanded="false" />
+                <element signature="e#60670#60817#0" expanded="false" />
+                <element signature="e#60857#61005#0" expanded="false" />
+                <element signature="e#61045#61307#0" expanded="false" />
+                <element signature="e#61045#61100#1" expanded="false" />
+                <element signature="e#61444#61480#0" expanded="false" />
+                <element signature="e#61512#63782#0" expanded="false" />
+                <element signature="e#61512#61607#1" expanded="false" />
+                <element signature="e#62182#62237#0" expanded="false" />
+                <element signature="e#62411#63663#0" expanded="false" />
+                <element signature="e#63816#66117#0" expanded="false" />
+                <element signature="e#63816#63913#1" expanded="false" />
+                <element signature="e#64540#64595#0" expanded="false" />
+                <element signature="e#64745#65997#0" expanded="false" />
+                <element signature="e#66168#66359#1" expanded="false" />
+                <element signature="e#67569#67724#1" expanded="false" />
+                <element signature="e#68002#68084#1" expanded="false" />
+                <element signature="e#68175#68299#1" expanded="false" />
+                <element signature="e#68536#68679#1" expanded="false" />
+                <element signature="e#68999#69146#1" expanded="false" />
+                <element signature="e#69467#69586#1" expanded="false" />
+                <element signature="e#69821#69909#1" expanded="false" />
+                <element signature="e#70000#70112#1" expanded="false" />
+                <element signature="e#70271#70374#1" expanded="false" />
+                <element signature="e#70870#71158#0" expanded="false" />
+                <element signature="e#70870#70942#1" expanded="false" />
+                <element signature="e#71283#71680#0" expanded="false" />
+                <element signature="e#71722#75620#0" expanded="false" />
+                <element signature="e#75668#77238#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainGUI.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/octoprint_Julia2018TouchUI/mainGUI.py">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="330">
+              <caret line="15" column="27" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mainGUI.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/octoprint_JuliaExtended2018TouchUI/mainGUI.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="121">
+              <caret line="2709" column="5" selection-start-line="2709" selection-start-column="5" selection-end-line="2709" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -94,6 +388,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/octoprint_Julia2018TouchUI/__init__.py" />
         <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/octoprint_JuliaExtended2018TouchUI/mainGUI.py" />
+        <option value="$PROJECT_DIR$/octoprint_JuliaExtended2018TouchUI/Main.py" />
       </list>
     </option>
   </component>
@@ -157,7 +453,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="octoprint_Julia2018TouchUI" />
+              <option name="myItemId" value="octoprint_JuliaExtended2018TouchUI" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -167,7 +463,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Julia3GTouchUI" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Vijay/Documents/GitHub/Julia3GTouchUI/octoprint_Julia3GTouchUI/mainGUI.py" />
   </component>
@@ -409,25 +705,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="2391" y="159" width="2418" height="1331" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0725" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0725" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1955211" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17303371" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17303371" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1959799" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -513,15 +809,17 @@
           <line>1557</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/octoprint_JuliaExtended2018TouchUI/Main.py</url>
+          <line>1362</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="29" />
+      <option name="time" value="30" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/octoprint_Julia3GTouchUI/Main.py" />
-    <entry file="file://$PROJECT_DIR$/octoprint_Julia3GTouchUI/hurry/filesize/filesize.py" />
-    <entry file="file://$PROJECT_DIR$/octoprint_Julia3GTouchUI/octoprintAPI.py" />
     <entry file="file://$PROJECT_DIR$/octoprint_Julia3GTouchUI/keyBoard.py" />
     <entry file="file://$PROJECT_DIR$/octoprint_Julia3GTouchUI/mainGUI.py" />
     <entry file="file://$PROJECT_DIR$/setup.py">
@@ -611,14 +909,6 @@
     <entry file="file://$PROJECT_DIR$/octoprint_Julia3GTouchUI/keyBoard.py" />
     <entry file="file://$PROJECT_DIR$/octoprint_Julia3GTouchUI/octoprintAPI.py" />
     <entry file="file://$PROJECT_DIR$/octoprint_Julia3GTouchUI/Main.py" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/octoprint_Julia2018TouchUI/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1738">
@@ -629,18 +919,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/octoprint_Julia2018TouchUI/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1388" column="52" selection-start-line="1388" selection-start-column="52" selection-end-line="1388" selection-end-column="52" />
-          <folding>
-            <element signature="e#305#336#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="297">
+          <caret line="786" column="42" selection-start-line="786" selection-start-column="41" selection-end-line="786" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/octoprint_Julia2018TouchUI/mainGUI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="363">
+          <caret line="550" column="70" selection-start-line="550" selection-start-column="63" selection-end-line="550" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/octoprint_JuliaExtended2018TouchUI/mainGUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="2709" column="5" selection-start-line="2709" selection-start-column="5" selection-end-line="2709" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -650,6 +954,179 @@
         <state relative-caret-position="594">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/octoprint_JuliaExtended2018TouchUI/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1518">
+          <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/octoprint_JuliaExtended2018TouchUI/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="1452" column="0" selection-start-line="1452" selection-start-column="0" selection-end-line="1452" selection-end-column="0" />
+          <folding>
+            <element signature="e#6272#6374#0" expanded="false" />
+            <element signature="e#6680#7522#0" expanded="false" />
+            <element signature="e#6680#6773#1" expanded="false" />
+            <element signature="e#7555#7878#1" expanded="false" />
+            <element signature="e#8101#8165#1" expanded="false" />
+            <element signature="e#9142#9158#0" expanded="false" />
+            <element signature="e#18042#19340#0" expanded="false" />
+            <element signature="e#18300#19256#0" expanded="false" />
+            <element signature="e#18349#19256#0" expanded="false" />
+            <element signature="e#18422#18796#0" expanded="false" />
+            <element signature="e#18839#19256#0" expanded="false" />
+            <element signature="e#19396#21554#0" expanded="false" />
+            <element signature="e#19396#19480#1" expanded="false" />
+            <element signature="e#19996#20051#0" expanded="false" />
+            <element signature="e#20200#21409#0" expanded="false" />
+            <element signature="e#21499#21554#0" expanded="false" />
+            <element signature="e#21610#23717#0" expanded="false" />
+            <element signature="e#21610#21694#1" expanded="false" />
+            <element signature="e#22210#22265#0" expanded="false" />
+            <element signature="e#22414#23623#0" expanded="false" />
+            <element signature="e#23769#23965#0" expanded="false" />
+            <element signature="e#24019#24488#0" expanded="false" />
+            <element signature="e#24173#24284#0" expanded="false" />
+            <element signature="e#24329#24487#0" expanded="false" />
+            <element signature="e#24545#24667#0" expanded="false" />
+            <element signature="e#24711#24875#0" expanded="false" />
+            <element signature="e#24915#29871#0" expanded="false" />
+            <element signature="e#25020#25160#0" expanded="false" />
+            <element signature="e#25069#25160#0" expanded="false" />
+            <element signature="e#25201#27562#0" expanded="false" />
+            <element signature="e#25858#25913#0" expanded="false" />
+            <element signature="e#26099#27423#0" expanded="false" />
+            <element signature="e#27590#29871#0" expanded="false" />
+            <element signature="e#28201#28256#0" expanded="false" />
+            <element signature="e#28418#29742#0" expanded="false" />
+            <element signature="e#30017#32957#0" expanded="false" />
+            <element signature="e#30017#30093#1" expanded="false" />
+            <element signature="e#30961#32772#0" expanded="false" />
+            <element signature="e#33001#33981#0" expanded="false" />
+            <element signature="e#34028#34262#0" expanded="false" />
+            <element signature="e#34054#34177#0" expanded="false" />
+            <element signature="e#34299#34852#0" expanded="false" />
+            <element signature="e#34538#34641#0" expanded="false" />
+            <element signature="e#34894#35628#0" expanded="false" />
+            <element signature="e#34911#35577#0" expanded="false" />
+            <element signature="e#35666#35827#0" expanded="false" />
+            <element signature="e#35862#36654#0" expanded="false" />
+            <element signature="e#35862#36012#1" expanded="false" />
+            <element signature="e#36021#36036#0" expanded="false" />
+            <element signature="e#36787#37406#0" expanded="false" />
+            <element signature="e#37444#38060#0" expanded="false" />
+            <element signature="e#38100#38267#0" expanded="false" />
+            <element signature="e#38313#38404#0" expanded="false" />
+            <element signature="e#38542#40830#0" expanded="false" />
+            <element signature="e#38542#38649#1" expanded="false" />
+            <element signature="e#39232#39287#0" expanded="false" />
+            <element signature="e#39461#40713#0" expanded="false" />
+            <element signature="e#40871#41280#0" expanded="false" />
+            <element signature="e#40871#40961#1" expanded="false" />
+            <element signature="e#41026#41102#0" expanded="false" />
+            <element signature="e#41319#42018#0" expanded="false" />
+            <element signature="e#41319#41479#1" expanded="false" />
+            <element signature="e#41646#41714#0" expanded="false" />
+            <element signature="e#41818#41860#0" expanded="false" />
+            <element signature="e#42055#42745#0" expanded="false" />
+            <element signature="e#42055#42278#1" expanded="false" />
+            <element signature="e#42579#42599#0" expanded="false" />
+            <element signature="e#42790#45836#0" expanded="false" />
+            <element signature="e#42790#43014#1" expanded="false" />
+            <element signature="e#43040#45257#0" expanded="false" />
+            <element signature="e#43690#43915#0" expanded="false" />
+            <element signature="e#44034#44172#0" expanded="false" />
+            <element signature="e#44293#44419#0" expanded="false" />
+            <element signature="e#44522#44575#0" expanded="false" />
+            <element signature="e#44753#44859#1" expanded="false" />
+            <element signature="e#45004#45129#0" expanded="false" />
+            <element signature="e#45288#45836#0" expanded="false" />
+            <element signature="e#45333#45363#0" expanded="false" />
+            <element signature="e#45878#46772#0" expanded="false" />
+            <element signature="e#45878#46037#1" expanded="false" />
+            <element signature="e#46063#46680#0" expanded="false" />
+            <element signature="e#46709#46772#0" expanded="false" />
+            <element signature="e#46825#47326#0" expanded="false" />
+            <element signature="e#46825#47067#1" expanded="false" />
+            <element signature="e#47361#47605#0" expanded="false" />
+            <element signature="e#47361#47430#1" expanded="false" />
+            <element signature="e#47641#47966#0" expanded="false" />
+            <element signature="e#47641#47736#1" expanded="false" />
+            <element signature="e#48114#54139#0" expanded="false" />
+            <element signature="e#48114#48515#1" expanded="false" />
+            <element signature="e#48574#49462#0" expanded="false" />
+            <element signature="e#48662#49460#0" expanded="false" />
+            <element signature="e#49546#50565#0" expanded="false" />
+            <element signature="e#49657#50563#0" expanded="false" />
+            <element signature="e#50938#51804#0" expanded="false" />
+            <element signature="e#51022#51802#0" expanded="false" />
+            <element signature="e#51884#52875#0" expanded="false" />
+            <element signature="e#51989#52873#0" expanded="false" />
+            <element signature="e#53317#54139#0" expanded="false" />
+            <element signature="e#53608#54061#0" expanded="false" />
+            <element signature="e#53894#54061#0" expanded="false" />
+            <element signature="e#54189#56658#0" expanded="false" />
+            <element signature="e#54189#54500#1" expanded="false" />
+            <element signature="e#54538#54860#0" expanded="false" />
+            <element signature="e#54888#56658#0" expanded="false" />
+            <element signature="e#55229#55424#0" expanded="false" />
+            <element signature="e#55561#55759#0" expanded="false" />
+            <element signature="e#55976#56148#1" expanded="false" />
+            <element signature="e#56219#56658#0" expanded="false" />
+            <element signature="e#56399#56528#0" expanded="false" />
+            <element signature="e#56704#59939#0" expanded="false" />
+            <element signature="e#56704#56980#1" expanded="false" />
+            <element signature="e#57122#57516#0" expanded="false" />
+            <element signature="e#57171#57514#0" expanded="false" />
+            <element signature="e#57570#57958#0" expanded="false" />
+            <element signature="e#57619#57956#0" expanded="false" />
+            <element signature="e#58013#58402#0" expanded="false" />
+            <element signature="e#58062#58400#0" expanded="false" />
+            <element signature="e#58463#58852#0" expanded="false" />
+            <element signature="e#58512#58850#0" expanded="false" />
+            <element signature="e#58862#58933#1" expanded="false" />
+            <element signature="e#58979#59271#0" expanded="false" />
+            <element signature="e#59319#59614#0" expanded="false" />
+            <element signature="e#59643#59939#0" expanded="false" />
+            <element signature="e#60064#60210#0" expanded="false" />
+            <element signature="e#60253#61005#0" expanded="false" />
+            <element signature="e#60253#60440#1" expanded="false" />
+            <element signature="e#60482#60631#0" expanded="false" />
+            <element signature="e#60670#60817#0" expanded="false" />
+            <element signature="e#60857#61005#0" expanded="false" />
+            <element signature="e#61045#61307#0" expanded="false" />
+            <element signature="e#61045#61100#1" expanded="false" />
+            <element signature="e#61444#61480#0" expanded="false" />
+            <element signature="e#61512#63782#0" expanded="false" />
+            <element signature="e#61512#61607#1" expanded="false" />
+            <element signature="e#62182#62237#0" expanded="false" />
+            <element signature="e#62411#63663#0" expanded="false" />
+            <element signature="e#63816#66117#0" expanded="false" />
+            <element signature="e#63816#63913#1" expanded="false" />
+            <element signature="e#64540#64595#0" expanded="false" />
+            <element signature="e#64745#65997#0" expanded="false" />
+            <element signature="e#66168#66359#1" expanded="false" />
+            <element signature="e#67569#67724#1" expanded="false" />
+            <element signature="e#68002#68084#1" expanded="false" />
+            <element signature="e#68175#68299#1" expanded="false" />
+            <element signature="e#68536#68679#1" expanded="false" />
+            <element signature="e#68999#69146#1" expanded="false" />
+            <element signature="e#69467#69586#1" expanded="false" />
+            <element signature="e#69821#69909#1" expanded="false" />
+            <element signature="e#70000#70112#1" expanded="false" />
+            <element signature="e#70271#70374#1" expanded="false" />
+            <element signature="e#70870#71158#0" expanded="false" />
+            <element signature="e#70870#70942#1" expanded="false" />
+            <element signature="e#71283#71680#0" expanded="false" />
+            <element signature="e#71722#75620#0" expanded="false" />
+            <element signature="e#75668#77238#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
